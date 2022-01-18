@@ -1,0 +1,73 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 12px 0;
+}
+
+.login {
+	padding: 8px 12px;
+}
+
+.chatroom_content_container {
+	display: flex;
+	margin-top: 22px;
+}
+
+.chatroom_left_sidebar {
+	margin-top: 32px;
+	margin-left: 12px;
+	border-right: 1px solid black;
+	padding-right: 24px;
+	height: 50vh;
+}
+
+.rooms_list_container {
+	margin-top: 12px;
+}
+
+.roomitem {
+	cursor: pointer;
+	padding: 8px;
+	border: 1px solid black;
+	margin-top: 12px;
+}
+
+.selected_room {
+	border: 3px solid blueviolet;
+}
+
+.main_chat_container {
+	width: 700px;
+	margin-left: 24px;
+}
+
+.chats {
+	height: 400px;
+	width: 100%;
+	border: 1px solid blue;
+}
+.sender {
+	margin-top: 12px;
+	width: 100%;
+}
+
+.input {
+	width: 80%;
+}

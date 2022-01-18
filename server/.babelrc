@@ -1,0 +1,15 @@
+// don't use ignore files here use it directly with babel-cli
+// see this url https://github.com/babel/babel/issues/9740
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"node": "14"
+				}
+			},
+			"es2015"
+		]
+	]
+}
