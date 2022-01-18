@@ -6,4 +6,6 @@
 if login as tanay you will have access to every room.
 to logout please remove cookies from client.
 
+and if see 2 messages in chat box. this is because due to webpack's hot_module_reload sometimes pusher is not able to close subscribtion but this does not happen in production. (e.g. in next.js mongooseInstance, prismaInstance has problem).
+
 - error will be shown in console.log
