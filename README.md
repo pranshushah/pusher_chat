@@ -5,3 +5,5 @@
 512 members rizwan and prakhar.
 if login as tanay you will have access to every room.
 to logout please remove cookies from client.
+
+- error will be shown in console.log
